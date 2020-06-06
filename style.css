@@ -1,0 +1,89 @@
+body {
+    background-image: url("index1.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.navbar {
+    background-color: crimson;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.collapse {
+    justify-content: center;
+}
+
+p {
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.9;
+    font-weight: 600;
+    color: red;
+    text-align: center;
+    text-shadow: none;
+    animation: right_to_left 1s ease;
+}
+
+@keyframes right_to_left {
+    from {
+        margin-left: 90%;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+.alert {
+    margin-top: 130px;
+    margin-bottom: 100px;
+    background-color: lightgray;
+    animation: right_to_left 1s ease;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.alert:hover {
+    opacity: 1;
+}
+
+.body1{
+    background-image: url("body3.jpg");
+    background-size: cover;
+}
+
+.body2{
+    background-image: url("body2.jpg");
+    background-size: cover;
+}
+
+.body3{
+    background-image: url("body1.jpg");
+    background-size: cover;
+}
+
+.navbar-brand{
+    font-size: 13px;
+}
+
+.card-img-top{
+    opacity: 1;
+    display: block;
+    width: 425px;
+    height: 250px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    object-fit: none;
+}
+
+.card:hover .card-img-top {
+    opacity: 0.4;
+}
+
+.card-title{
+    text-align: center;
+}
